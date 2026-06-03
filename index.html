@@ -7,26 +7,91 @@
 <title>Guest Post Marketplace for Safe Link Building</title>
 
 <style>
-body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background:#f5f5f5;
-    font-family:Arial, sans-serif;
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.8;
+    color:#333;
+    background:#f5f5f5;
+}
+
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:20px;
+}
+
+/* Add Website Section */
+
+.add-website-section{
+    max-width:1300px;
+    margin:40px auto;
+    background:#f8f8f8;
+    border:1px solid #ddd;
+    border-radius:10px;
+    text-align:center;
+    padding:50px 30px;
+}
+
+.add-website-section h2{
+    color:#2f5fe3;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.divider{
+    width:100%;
+    height:1px;
+    background:#d9dfe9;
+    margin-bottom:40px;
+}
+
+.add-website-section p{
+    font-size:18px;
+    color:#334e68;
+    max-width:1000px;
+    margin:0 auto 40px;
+}
+
+.contact-btn{
+    display:inline-block;
+    background:#2f5fe3;
+    color:#fff;
+    text-decoration:none;
+    padding:18px 40px;
+    font-size:18px;
+    font-weight:600;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.contact-btn:hover{
+    background:#244fc5;
+}
+
+/* Marketplace Button */
 
 .guest-post-btn{
     display:flex;
     align-items:center;
+    justify-content:center;
     gap:25px;
     padding:20px 40px;
+    margin:40px auto;
     background:linear-gradient(180deg,#38a2ff,#0047ff);
-    border:4px solid rgba(255,255,255,0.2);
+    border:4px solid rgba(255,255,255,.2);
     border-radius:35px;
     text-decoration:none;
     box-shadow:0 10px 25px rgba(0,70,255,.35);
-    transition:.3s ease;
+    transition:.3s;
+    width:fit-content;
 }
 
 .guest-post-btn:hover{
@@ -60,80 +125,7 @@ body{
     text-shadow:0 2px 3px rgba(0,0,0,.2);
 }
 
-@media(max-width:768px){
-
-.guest-post-btn{
-    padding:15px 25px;
-    gap:15px;
-}
-
-.icon-circle{
-    width:70px;
-    height:70px;
-}
-
-.guest-post-btn span{
-    font-size:26px;
-}
-}
-
-    ===========
-    
-body{
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-    color:#333;
-    max-width:900px;
-    margin:0 auto;
-    padding:20px;
-}
-    .add-website-section{
-    max-width:1300px;
-    margin:40px auto;
-    background:#f8f8f8;
-    border:1px solid #ddd;
-    border-radius:10px;
-    text-align:center;
-    padding:50px 30px;
-}
-
-.add-website-section h2{
-    color:#2f5fe3;
-    font-size:42px;
-    font-weight:700;
-    margin-bottom:25px;
-}
-
-.divider{
-    width:100%;
-    height:1px;
-    background:#d9dfe9;
-    margin-bottom:40px;
-}
-
-.add-website-section p{
-    font-size:18px;
-    color:#334e68;
-    max-width:1000px;
-    margin:0 auto 40px;
-    line-height:1.7;
-}
-
-.contact-btn{
-    display:inline-block;
-    background:#2f5fe3;
-    color:#fff;
-    text-decoration:none;
-    padding:18px 40px;
-    font-size:18px;
-    font-weight:600;
-    border-radius:8px;
-    transition:0.3s ease;
-}
-
-.contact-btn:hover{
-    background:#244fc5;
-}
+/* Article Styling */
 
 h1{
     color:#1a1a1a;
@@ -183,6 +175,45 @@ li{
     border-left:4px solid #0d47a1;
     margin-top:30px;
 }
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .add-website-section{
+        padding:30px 20px;
+    }
+
+    .add-website-section h2{
+        font-size:30px;
+    }
+
+    .guest-post-btn{
+        padding:15px;
+        gap:12px;
+        width:100%;
+    }
+
+    .icon-circle{
+        width:70px;
+        height:70px;
+    }
+
+    .icon-circle svg{
+        width:35px;
+        height:35px;
+    }
+
+    .guest-post-btn span{
+        font-size:22px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+}
+```
+
 </style>
 </head>
 
